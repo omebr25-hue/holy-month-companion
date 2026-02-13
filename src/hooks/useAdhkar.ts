@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Dhikr, DhikrProgress, DhikrCategory } from '@/types/ramadan';
-import { morningAdhkar, eveningAdhkar, afterPrayerAdhkar, sleepAdhkar } from '@/data/adhkar';
+import { morningAdhkar, eveningAdhkar, afterPrayerAdhkar, sleepAdhkar, wakingAdhkar, homeEntryAdhkar, homeExitAdhkar, foodAdhkar, anxietyAdhkar, travelAdhkar } from '@/data/adhkar';
 
 const PROGRESS_KEY = 'ramadan-adhkar-progress';
 
@@ -26,6 +26,18 @@ export const useAdhkar = () => {
         return afterPrayerAdhkar;
       case 'sleep':
         return sleepAdhkar;
+      case 'waking':
+        return wakingAdhkar;
+      case 'home_entry':
+        return homeEntryAdhkar;
+      case 'home_exit':
+        return homeExitAdhkar;
+      case 'food':
+        return foodAdhkar;
+      case 'anxiety':
+        return anxietyAdhkar;
+      case 'travel':
+        return travelAdhkar;
       default:
         return [];
     }

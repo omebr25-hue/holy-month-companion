@@ -215,11 +215,170 @@ export const sleepAdhkar: Dhikr[] = [
   },
 ];
 
+// === NEW ADHKAR CATEGORIES ===
+
+export const wakingAdhkar: Dhikr[] = [
+  {
+    id: 'waking-1',
+    category: 'waking',
+    text: 'الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ',
+    count: 1,
+    source: 'البخاري',
+    hadithGrade: 'صحيح',
+  },
+  {
+    id: 'waking-2',
+    category: 'waking',
+    text: 'لاَ إِلَـٰهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ، سُبْحَانَ اللهِ، وَالْحَمْدُ لِلَّهِ، وَلاَ إِلَـٰهَ إِلاَّ اللهُ، وَاللهُ أَكْبَرُ، وَلاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللهِ الْعَلِيِّ الْعَظِيمِ',
+    translation: 'من قالها عند الاستيقاظ ثم دعا استُجيب له',
+    count: 1,
+    source: 'البخاري',
+    hadithGrade: 'صحيح',
+  },
+];
+
+export const homeEntryAdhkar: Dhikr[] = [
+  {
+    id: 'home-entry-1',
+    category: 'home_entry',
+    text: 'بِسْمِ اللهِ وَلَجْنَا، وَبِسْمِ اللهِ خَرَجْنَا، وَعَلَى رَبِّنَا تَوَكَّلْنَا',
+    count: 1,
+    source: 'أبو داود',
+    hadithGrade: 'صحيح',
+  },
+  {
+    id: 'home-entry-2',
+    category: 'home_entry',
+    text: 'اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَ الْمَوْلِجِ وَخَيْرَ الْمَخْرَجِ، بِسْمِ اللهِ وَلَجْنَا وَبِسْمِ اللهِ خَرَجْنَا وَعَلَى اللهِ رَبِّنَا تَوَكَّلْنَا',
+    count: 1,
+    source: 'أبو داود',
+    hadithGrade: 'صحيح',
+  },
+];
+
+export const homeExitAdhkar: Dhikr[] = [
+  {
+    id: 'home-exit-1',
+    category: 'home_exit',
+    text: 'بِسْمِ اللهِ، تَوَكَّلْتُ عَلَى اللهِ، وَلاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللهِ',
+    count: 1,
+    source: 'أبو داود والترمذي',
+    hadithGrade: 'صحيح',
+  },
+  {
+    id: 'home-exit-2',
+    category: 'home_exit',
+    text: 'اللَّهُمَّ إِنِّي أَعُوذُ بِكَ أَنْ أَضِلَّ أَوْ أُضَلَّ، أَوْ أَزِلَّ أَوْ أُزَلَّ، أَوْ أَظْلِمَ أَوْ أُظْلَمَ، أَوْ أَجْهَلَ أَوْ يُجْهَلَ عَلَيَّ',
+    count: 1,
+    source: 'أبو داود والترمذي',
+    hadithGrade: 'صحيح',
+  },
+];
+
+export const foodAdhkar: Dhikr[] = [
+  {
+    id: 'food-1',
+    category: 'food',
+    text: 'بِسْمِ اللهِ',
+    translation: 'يقال عند البدء بالطعام',
+    count: 1,
+    source: 'متفق عليه',
+    hadithGrade: 'صحيح',
+  },
+  {
+    id: 'food-2',
+    category: 'food',
+    text: 'الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلاَ قُوَّةٍ',
+    translation: 'يقال بعد الفراغ من الطعام',
+    count: 1,
+    source: 'أبو داود والترمذي',
+    hadithGrade: 'حسن',
+  },
+  {
+    id: 'food-3',
+    category: 'food',
+    text: 'اللَّهُمَّ بَارِكْ لَنَا فِيهِ وَأَطْعِمْنَا خَيْرًا مِنْهُ',
+    count: 1,
+    source: 'الترمذي',
+    hadithGrade: 'حسن',
+  },
+];
+
+export const anxietyAdhkar: Dhikr[] = [
+  {
+    id: 'anxiety-1',
+    category: 'anxiety',
+    text: 'لاَ إِلَـٰهَ إِلاَّ اللهُ الْعَظِيمُ الْحَلِيمُ، لاَ إِلَـٰهَ إِلاَّ اللهُ رَبُّ الْعَرْشِ الْعَظِيمِ، لاَ إِلَـٰهَ إِلاَّ اللهُ رَبُّ السَّمَاوَاتِ وَرَبُّ الأَرْضِ رَبُّ الْعَرْشِ الْكَرِيمِ',
+    translation: 'دعاء الكرب',
+    count: 1,
+    source: 'متفق عليه',
+    hadithGrade: 'صحيح',
+  },
+  {
+    id: 'anxiety-2',
+    category: 'anxiety',
+    text: 'اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْبُخْلِ وَالْجُبْنِ، وَضَلَعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ',
+    count: 1,
+    source: 'البخاري',
+    hadithGrade: 'صحيح',
+  },
+  {
+    id: 'anxiety-3',
+    category: 'anxiety',
+    text: 'اللَّهُمَّ رَحْمَتَكَ أَرْجُو فَلاَ تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ، وَأَصْلِحْ لِي شَأْنِي كُلَّهُ، لاَ إِلَـٰهَ إِلاَّ أَنْتَ',
+    count: 1,
+    source: 'أبو داود',
+    hadithGrade: 'حسن',
+  },
+  {
+    id: 'anxiety-4',
+    category: 'anxiety',
+    text: 'حَسْبِيَ اللهُ لاَ إِلَـٰهَ إِلاَّ هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ',
+    count: 7,
+    source: 'أبو داود',
+    hadithGrade: 'حسن',
+  },
+];
+
+export const travelAdhkar: Dhikr[] = [
+  {
+    id: 'travel-1',
+    category: 'travel',
+    text: 'اللهُ أَكْبَرُ، اللهُ أَكْبَرُ، اللهُ أَكْبَرُ، سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَى رَبِّنَا لَمُنقَلِبُونَ',
+    translation: 'دعاء ركوب الدابة / السيارة',
+    count: 1,
+    source: 'مسلم',
+    hadithGrade: 'صحيح',
+  },
+  {
+    id: 'travel-2',
+    category: 'travel',
+    text: 'اللَّهُمَّ إِنَّا نَسْأَلُكَ فِي سَفَرِنَا هَذَا الْبِرَّ وَالتَّقْوَى، وَمِنَ الْعَمَلِ مَا تَرْضَى',
+    count: 1,
+    source: 'مسلم',
+    hadithGrade: 'صحيح',
+  },
+  {
+    id: 'travel-3',
+    category: 'travel',
+    text: 'اللَّهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَذَا وَاطْوِ عَنَّا بُعْدَهُ',
+    count: 1,
+    source: 'مسلم',
+    hadithGrade: 'صحيح',
+  },
+];
+
 export const getAllAdhkar = () => ({
   morning: morningAdhkar,
   evening: eveningAdhkar,
   after_prayer: afterPrayerAdhkar,
   sleep: sleepAdhkar,
+  waking: wakingAdhkar,
+  home_entry: homeEntryAdhkar,
+  home_exit: homeExitAdhkar,
+  food: foodAdhkar,
+  anxiety: anxietyAdhkar,
+  travel: travelAdhkar,
 });
 
 export const getCategoryName = (category: string): string => {
