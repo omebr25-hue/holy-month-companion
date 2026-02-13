@@ -20,16 +20,17 @@ export const AdhkarCard: React.FC<AdhkarCardProps> = ({ category, onViewDetails 
 
   const getCategoryIcon = () => {
     switch (category) {
-      case 'morning':
-        return '🌅';
-      case 'evening':
-        return '🌙';
-      case 'after_prayer':
-        return '🕌';
-      case 'sleep':
-        return '😴';
-      default:
-        return '📿';
+      case 'morning': return '🌅';
+      case 'evening': return '🌙';
+      case 'after_prayer': return '🕌';
+      case 'sleep': return '😴';
+      case 'waking': return '⏰';
+      case 'home_entry': return '🏠';
+      case 'home_exit': return '🚪';
+      case 'food': return '🍽️';
+      case 'anxiety': return '🤲';
+      case 'travel': return '✈️';
+      default: return '📿';
     }
   };
 
